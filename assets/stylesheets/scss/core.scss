@@ -1,0 +1,93 @@
+@import '_bootstrap.scss';
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+@import 'font-awesome/font-awesome.scss';
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+	width: 539px;
+	vertical-align: middle;
+}
+
+.border-top {
+    border-top: 1px #eae8e8 solid;
+    border-right: 1px #eae8e8 solid;
+    border-left: 1px #eae8e8 solid;
+}
+
+.border-bottom {
+    border-bottom: 1px #eae8e8 solid;
+    border-right: 1px #eae8e8 solid;
+    border-left: 1px #eae8e8 solid;
+}
+
+.col-xs-12  {
+	padding: 0;
+}
+
+.logo {
+	margin: 0 auto;
+	padding: 5em 0;
+}
+
+.author {
+	float: left;
+	padding: 1em;
+}
+
+.author img,
+.author h2,
+.author a,
+.date,
+.caption {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+	color: #444d57;
+	font-size: 1em;
+	text-decoration: none;
+}
+
+.author h2 {
+	padding-left: 0.550em;
+}
+
+.date {
+	float: right;
+}
+.date p {
+	vertical-align: sub;
+	margin: 0;
+}
+
+.caption p { 
+	margin: 0;
+	padding: 1.550em;
+}
+
+.social {
+	padding: 0em 1.550em 1.550em 1.550em;
+}
+
+.fa {
+	font-size: 1.7em;
+	padding-right: 0.550em;
+}
+.fa-heart-o {
+	color: #ff0048;
+}
+.fa-share {
+	color: #4c4757;
+}
+
