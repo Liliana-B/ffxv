@@ -1,8 +1,11 @@
 @import '_bootstrap.scss';
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
 @import 'font-awesome/font-awesome.scss';
+@import 'plugin.css';
+
 body {
 	font-family: 'Open Sans', sans-serif;
+
 }
 
 h1,
@@ -80,14 +83,33 @@ h6,
 	padding: 0em 1.550em 1.550em 1.550em;
 }
 
-.fa {
+.photo .fa {
 	font-size: 1.7em;
 	padding-right: 0.550em;
 }
-.fa-heart-o {
+.photo .fa-heart-o, footer .fa-heart-o {
 	color: #ff0048;
 }
-.fa-share {
+.photo .fa-share {
 	color: #4c4757;
 }
 
+footer {
+	background-color: #6b8097;
+	color: #ffffff;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+footer p {
+	margin: 0;
+	padding: 2em 0;
+}
+
+footer a {
+	color: #ffffff;
+	text-decoration: none;	
+}
